@@ -5,7 +5,7 @@ $(document).ready(function(){
   $(".menu-icon").on("click", function(){
     $("nav ul").toggleClass("showing");
   })
-})
+});
 
 // Scrolling Effect
 $(window).on("scroll", function(){
@@ -14,4 +14,4 @@ $(window).on("scroll", function(){
   }else{
     $('nav').removeClass('green');
   }
-})
+});
